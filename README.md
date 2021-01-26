@@ -27,3 +27,9 @@ Cross-platform JavaFX library for notifications
 - NotiFX API should follow JavaFX convention where possible
 - NotiFX should be modular, and able to be run with the latest OpenJDK release
 - NotiFX should **not** have any external dependencies apart from test scope software
+
+## Development
+- Minor fixes/implementation can be committed directly
+- Major fixes or improvements should have a pull request or issue created
+- Code style should be uniform, Sun Java style or Google's Java style guidelines
+  should be followed unless any rule would make the code more difficult to understand
