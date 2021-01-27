@@ -22,9 +22,11 @@ Cross-platform JavaFX library for notifications
 - Notifications that appear then fade away.
 
 ## Goals
-- NotiFX should be written in pure JavaFX or native code (C/C++)
+- NotiFX should be written in pure JavaFX or call native libraries
+  - Use incubating Foreign Linker API (JDK16+) in favor of C/C++ and JNI
+  - Foreign Linker API allows directly calling native library (e.g. Win32) from Java
 - NotiFX should **not** use AWT or Swing
-- NotiFX API should follow JavaFX convention where possible
+- NotiFX API should follow JavaFX conventions where possible
 - NotiFX should be modular, and able to be run with the latest OpenJDK release
 - NotiFX should **not** have any external dependencies apart from test scope software
 
